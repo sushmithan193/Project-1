@@ -1,0 +1,509 @@
+body{
+  margin:0;
+  background-color: #f2f2f2;
+}
+
+
+.logo{
+    /*background-image: url('full_logo_dark.png');*/
+    float:left;
+    min-height: auto;
+    width:100px;
+    right:100px;
+    left:100px;
+    top:1000px;   
+}
+
+
+.topnav {
+    background-color:lightslategray;
+    overflow: hidden;
+  }
+  
+  /* Style the links inside the navigation bar */
+  .topnav a {
+      
+    float: right;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 5px 10px;
+    text-decoration: none;
+    font-size: 17px;
+    margin-right: 10px;
+  }
+  /*Icon below navigation bar*/
+.center{
+    display:block;
+    margin-left: 600px;
+    margin-right:auto;
+    width:8%;   
+}
+
+/*Heading for contact page which is written in the center*/
+.center3{
+  color:rgb(75, 73, 73);
+  font-size: 20px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  margin-top: 20px;
+  margin-left: -20px;
+  text-align: center;
+}
+
+/* to center the lists lname fname we are using these commands */
+input[type=text], label {
+  width: 40%; /* Full width */
+  padding: 6px; /* Some padding */
+  margin-top: 6px; /* Add a top margin */
+  margin-left: 400px;/*to push the letters towards right*/
+  margin-bottom: 16px; /* Bottom margin */
+  resize: vertically; /* Allow the user to vertically resize the textarea (not horizontally) */ 
+}
+
+
+/* Style inputs with type="text", select elements and textareas */
+input[type=text], select,textarea {
+  width: 40%; /* Full width */
+  padding: 6px; /* Some padding */ 
+  border: 0px solid #ccc; /* Gray border */
+  background-color: rgb(174, 178, 184);
+  border-radius: 0px; /* Rounded borders */
+  box-sizing: border-box; /* Make sure that padding and width stays in place */
+  margin-top: 6px; /* Add a top margin */
+  margin-left: 400px;/* to push the box towards right*/
+  margin-bottom: 16px; /* Bottom margin */
+  resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */ 
+}
+
+/* Style the submit button with a specific background color etc*/
+button[type=submit] {
+  background-color: rgb(174, 178, 184);
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius:8px;
+  cursor: pointer;
+   margin-left:47%;
+}
+
+.container #error_message{
+  margin-bottom:20px;
+  padding:0px;
+  background: #fe8b8e;
+  text-align:center;
+  font-size: 14px;
+  transition: all 0.3s ease;
+  color:black; 
+}
+
+/*button[onclick=alert]{
+  background-color: black;
+  color: white;
+  width: 100px;
+  height:100px;
+  text-align: center;
+}*/
+
+/* When moving the mouse over the submit button, add a darker green color */
+/*input[type=submit]:hover {
+  background-color: #45a049;
+}*/
+
+/* Add a background color and some padding around the form */
+/*.container {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+}*/
+
+
+/*allign the boxes below center1 in a index page*/
+.bottomnav1{
+  display: inline-block;
+  width: 280px;
+  padding:30px;
+  margin-right: 20px;
+}
+
+/*Statement written below coffee image(center) in contact page*/
+.side-left7{
+  color:rgb(75, 73, 73);
+  font-size: 20px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  margin-top: 20px;
+  margin-left: -2px;
+  text-align: center;
+}
+
+/*Statement written below .side-left7(below center) in contact page*/
+.side-left8{
+  color:rgb(75, 73, 73);
+  font-size: 12px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  margin-top: 20px;
+  margin-left: 440px;
+  text-align: left;
+}
+
+/*Placing map image in contact page*/
+.map{
+    display:block;
+    margin-left: 400px;
+    margin-right:-430px;
+    width:8%;
+    margin-top: 600px;
+}
+
+.tagline{
+  position:absolute;
+  width:1200px;
+  margin-left:0px;
+  margin-top:0px;
+}
+
+
+h1{
+  color:white;
+  font-size: 25px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-align: center;
+  margin-top:100px;
+  margin-left: 100px;
+}
+
+
+
+/*Class center1 below coffee room in index page*/
+h6{
+  color:rgb(19, 1, 1);
+  font-size: 25px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-align: center;
+  margin-top:50px;
+  margin-left: 10px;
+}
+
+/*coffee image towards right in about page*/
+.top-right{
+    position:absolute; 
+    bottom: 250px;
+    right:500px;
+    width: 180px;
+   
+}
+
+
+.side-right3{
+  color:rgb(90, 87, 87);
+  font-size: 20px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  /*text-align: center;*/
+  margin-top: 25px;
+  margin-left: 580px;
+  text-align: left;
+}
+
+.side-right4{
+  color:rgb(90, 87, 87);
+  font-size: 10px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  /*text-align: center;*/
+  margin-top: 25px;
+  margin-left: 580px;
+  text-align: left;
+}
+
+.side-right5{
+  color:rgb(90, 87, 87);
+  font-size: 10px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  /*text-align: center;*/
+  margin-top: 25px;
+  margin-left: 580px;
+  text-align: left;
+}
+
+
+.side-right6{
+  color:rgb(90, 87, 87);
+  font-size: 10px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  /*text-align: center;*/
+  margin-top: 25px;
+  margin-left: 580px;
+  text-align: left;
+}
+
+
+.side-right7{
+  color:rgb(90, 87, 87);
+  font-size: 10px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  /*text-align: center;*/
+  margin-top: 25px;
+  margin-left: 580px;
+  text-align: left;
+}
+
+
+/*Above paragraph of coffee room 2 image in about page*/
+.side-left3{
+  color:rgb(105, 104, 104);
+  font-size: 20px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  margin-top: 50px;
+  margin-left: 150px;
+}
+
+/*Above paragraph of coffee room 2 in about page*/
+.side-left4{
+  color:rgb(105, 104, 104);
+  font-size: 10px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  margin-top: 0px;
+  margin-left: 150px;
+}
+
+/*Above paragraph of coffee room 2 in about page*/
+.side-left5{
+  color:rgb(105, 104, 104);
+  font-size: 10px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  margin-top: 0px;
+  margin-left: 150px;
+}
+
+
+/*Above paragraph of coffee room 2 in about page*/
+.side-left6{
+  color:rgb(105, 104, 104);
+  font-size: 10px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  margin-top: 0px;
+  margin-left: 150px;
+}
+
+/*coffee room 2 image towards bottom in about page*/
+.bottom-left{
+    position:absolute;
+    bottom:-70px;
+    left:150px;
+    width:250px;
+}
+
+
+/*This image is displayed in the Footer*/
+/*.light{
+    float:left;
+    min-height: auto;
+    width:20px;
+    right:100px;
+    left:100px;
+    top:100px;   
+}*/
+
+#food{
+  text-align:center;
+
+}
+.logo1{
+    /*float:left;*/
+    min-height: auto;
+    width:50px;
+}
+
+.bottomnav1 {
+  text-align:center;
+    float:center;
+    background-color:rgb(184, 192, 201);
+    overflow: hidden;
+   /* width:300px;*/
+    height:200px;
+    align-self: center;
+    /*padding-left: 50px;*/
+  }
+
+
+  
+
+
+  #curve{
+      background:lightslategray;
+      border: 5px lightslategray;
+      border-radius: 5px;
+      width: 230px;
+      padding:10px;
+      bottom: 50px;
+      text-align: center;
+      margin-left: 550px;
+
+  }
+
+  .center2{
+    
+    text-align: center;
+    font-size: x-large;
+  }
+
+
+/*Class of center2 below curve in index page*/
+ bold{
+    color:rgb(90, 87, 87);
+    font-size: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    margin-top:10px;
+    margin-left: 610px;
+  }
+
+
+  .open{
+    display:block;
+    margin-left: 260px;
+    margin-right:auto;
+    width:5%;
+  }
+
+  .next-to-open{
+    color:black;
+    margin-left: 260px;
+    margin-top: 25px;
+    
+  }
+
+   /*writing Text next to open icon in index page*/
+  h5{
+    color:rgb(129, 128, 128);
+    font-size: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    /*text-align: center;*/
+    margin-top: -50px;
+    margin-left: 90px;
+  }
+
+   /*Displays on the side left behind open icon in open page*/
+  .side-left1{
+    color:rgb(90, 87, 87);
+    font-size: 11px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    /*text-align: center;*/
+    margin-top: 10px;
+    margin-left: 350px;
+    }
+   
+  /*Displays on the side left behind open icon and behind .side-left1 in open page*/
+  .side-left2{
+    color:rgb(90, 87, 87);
+    font-size: 11px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    /*text-align: center;*/
+    margin-top: 40px;
+    margin-left: 350px;
+  }
+
+   /*Displays on the side right behind open icon and next to .side-left1 in open page*/
+  .side-right1{
+    color:rgb(90, 87, 87);
+    font-size: 11px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    /*text-align: center;*/
+    margin-top: -100px;
+    margin-right: 450px;
+    text-align: right;
+   
+  }
+
+  /*Displays on the side right behind open icon and next to .side-left in open page*/
+  .side-right2{
+    color:rgb(90, 87, 87);
+    font-size: 11px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    /*text-align: center;*/
+    margin-top: 10px;
+    margin-right: 450px;
+    text-align: right;
+   
+  }
+
+
+   /*Down side line after the open icon and statements*/
+  .center1{
+    color:rgb(90, 87, 87);
+    font-size: 11px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    /*text-align: center;*/
+    margin-top: 10px;
+    margin-right: 370px;
+    margin-left: 500px; 
+  }
+
+
+  .map{
+    position:absolute; 
+    bottom: 200px;
+    top: 430px;
+    right:990px;
+    width: 350px;
+    
+   
+}
+  
+
+.footer {
+    background-color:lightslategray;
+    /*width: 1000px;*/
+    overflow: hidden;
+    text-align: center;
+    height: 100px;
+  
+    
+  }
+  
+  
+  .light{
+    float:left;
+    min-height: auto;
+    width:35px;
+    /*right:100px;*/
+    margin-left:50px;
+    margin-top: -20px;
+    /*top:100px; */
+   
+}
+
+
+  .linkdin{
+    /*background-image: url('full_logo_dark.png');*/
+  
+    min-height: auto;
+    text-align: center;
+    padding: 10px 20px;
+    width:20px;
+    margin-right: 100px;
+    
+}
+
+.twitter{
+   
+    min-height: auto;
+    text-align: center;
+    padding: 10px 20px;
+    min-height: auto;
+    width:20px;   
+    
+}
+
+.facebook{
+    /*background-image: url('full_logo_dark.png');*/
+    min-height: auto;
+    text-align: center;
+    padding: 10px 20px;
+    min-height: auto;
+    width:20px;
+    
+    
+    
+}
+
+
+
+
